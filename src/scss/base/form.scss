@@ -1,0 +1,128 @@
+/*.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    @include lg {
+        height: 36px;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        @include lg {
+            margin-right: 8px;
+        }
+    }
+    //.btn-blue
+    &-blue {
+        background: $colorBlue;
+        color: #fff;
+        @media (any-hover: hover) {
+            &:hover {
+                background: #3886e1;
+            }
+        }
+        &:active {
+            background: #2176da;
+        }
+        svg {
+            fill: #fff;
+        }
+    }
+    &-light {
+        background: #edf5fe;
+        color: $colorBlue;
+        @media (any-hover: hover) {
+            &:hover {
+                background: #e2eefc;
+            }
+        }
+        &:active {
+            background: #dae8fa;
+        }
+
+        svg {
+            fill: $colorBlue;
+        }
+    }
+    &-outline {
+        border: 1px solid $colorBlue;
+        color: $colorBlue;
+        @media (any-hover: hover) {
+            &:hover {
+                background: #eceff8;
+            }
+        }
+        &:active {
+            background: #dae8fa;
+        }
+    }
+}
+*/
+
+// .input-box {
+//   &>label {
+//     font-weight: 600;
+//     font-size: 18px;
+//     letter-spacing: 0.1em;
+//     color: #2a2c36;
+
+//     @include lg {
+//       font-size: 16px;
+//     }
+
+//     @include md {
+//       font-size: 14px;
+//     }
+//   }
+
+//   .input {
+//     height: 60px;
+//     width: 100%;
+//     font-size: 18px;
+//     color: #2a2c36;
+//     border-bottom: 1px solid rgba(42, 44, 54, 0.3);
+//     background: transparent;
+//     transition: all 0.3s ease 0s;
+
+//     @include lg {
+//       font-size: 16px;
+//     }
+
+//     &::placeholder {
+//       color: rgba(42, 44, 54, 0.3);
+//     }
+
+//     &.parsley-error {
+//       border-color: #da251c !important;
+//       background-color: rgba(218, 37, 28, 0.05);
+//     }
+
+//     @media (any-hover: hover) {
+//       &:hover {
+//         border-color: rgb(41, 68, 86);
+//       }
+//     }
+//   }
+
+//   textarea.input {
+//     border: none;
+//     border-bottom: 1px solid rgba(42, 44, 54, 0.3);
+//     resize: none;
+//     height: 120px;
+//     padding-top: 19px;
+
+//   }
+
+//   .parsley-errors-list {
+//     display: none;
+//   }
+// }

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+    @@include('components/head.html', { "title":"Главная" })
+    <body>
+        @@include('components/header/header.html', {})
+        <main class="wrapper">
+            <div class="dp container-n flex">
+                <div class="images-dp _swiper flex">
+                    <div class="images-dp__slide"></div>
+                </div>
+                <div class="dp__content">
+                    <h1 class="dp__name"></h1>
+                    <div class="dp__art center"></div>
+                    <div class="dp__text"></div>
+                </div>
+            </div>
+        </main>
+        @@include('components/footer/footer.html', {})
+    </body>
+</html>
